@@ -1,1 +1,20 @@
-
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 Trial Version - https://www.wysiwygwebbuilder.com">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb16.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:759px;margin: 0;border-width:0;z-index:250"></a>
+<div id="Layer1" style="position:absolute;text-align:left;left:0px;top:0px;width:1384px;height:790px;z-index:5;">
+<div id="Layer2" style="position:absolute;text-align:left;left:0px;top:0px;width:1384px;height:54px;z-index:1;">
+<div id="wb_Text1" style="position:absolute;left:0px;top:7px;width:1384px;height:40px;text-align:center;z-index:0;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:35px;">Сейчас сайт отключён для технических работ! Мы скоро вернёмся</span></div>
+</div>
+<div id="wb_Text2" style="position:absolute;left:571px;top:365px;width:250px;height:16px;z-index:2;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Произошла ошибка загрузка сайта.</span></div>
+</div>
+</body>
+</html>
