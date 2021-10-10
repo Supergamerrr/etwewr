@@ -1,0 +1,11 @@
+- name: Enable RDP Access.
+  run: |
+  Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections"
+  Enable-NetFireWallRule -DisplayGroup "Remote Desktop"
+  Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
+  - name: Tunnel
+  run: sc start ngrok
+  - name: Connect to your RDP 2core-7GB Ram.
+  run: cmd /c NGROK-CHECK.bat
+  - name: Finish
+  run:
